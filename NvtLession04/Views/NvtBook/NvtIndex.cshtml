@@ -1,0 +1,31 @@
+﻿@model IEnumerable<NvtLession04.Models.NvtBook>
+@{
+    ViewData["Title"] = "List book";
+}
+
+<h1>Thông tin các cuốn sách</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(NvtBook Nvtitem in Model)
+        {
+            <tr>
+                <td>@Nvtitem.NvtId</td>
+                <td>@Nvtitem.NvtTitle</td>
+                <td>@Nvtitem.NvtDescription</td>
+                <td>
+                    <img src="@Nvtitem.NvtImage" alt="@Nvtitem.NvtTitle" style="width:100px ; height:150px"/>
+                </td>
+                <td>@Nvtitem.NvtPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>

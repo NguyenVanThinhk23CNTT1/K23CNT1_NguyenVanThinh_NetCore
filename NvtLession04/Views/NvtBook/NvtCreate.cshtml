@@ -1,0 +1,31 @@
+﻿@model NvtLession04.Models.NvtBook
+
+<h2>Thêm mới sách</h2>
+
+<form asp-action="NvtCreateSubmit" method="post">
+    <div class="form-group">
+        <label for="NvtId">Book ID:</label>
+        <input type="text" class="form-control" id="NvtId" name="NvtId" required />
+    </div>
+    <div class="form-group">
+        <label for="NvtTitle">Title:</label>
+        <input type="text" class="form-control" id="NvtTitle" name="NvtTitle" required />
+    </div>
+    <div class="form-group">
+        <label for="NvtDescription">Description:</label>
+        <input type="text" class="form-control" id="NvtDescription" name="NvtDescription" required />
+    </div>
+    <div class="form-group">
+        <label for="NvtImage">Image Path:</label>
+        <input type="text" class="form-control" id="NvtImage" name="NvtImage" value="/images/default.jpg" required />
+    </div>
+    <div class="form-group">
+        <label for="NvtPrice">Price:</label>
+        <input type="text" class="form-control" id="NvtPrice" name="NvtPrice" required />
+    </div>
+    <div class="form-group">
+        <label for="NvtPage">Page:</label>
+        <input type="text" class="form-control" id="NvtPage" name="NvtPage" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
