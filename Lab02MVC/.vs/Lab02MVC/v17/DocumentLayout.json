@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\controllers\\nvtaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:controllers\\nvtaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\views\\nvtaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:views\\nvtaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\views\\nvthome\\nvtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:views\\nvthome\\nvtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\views\\shared\\_nvtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:views\\shared\\_nvtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\controllers\\nvthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:controllers\\nvthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|k:\\2310900101_nguyenvanthinh\\netcore\\lab02mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662A3360-BDAF-420A-9F22-62952E77BB9D}|Lab02MVC.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\NvtAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvtAccount\\Index.cshtml",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\NvtAccount\\Index.cshtml",
+              "RelativeToolTip": "Views\\NvtAccount\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T01:45:23.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:44:06.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NvtAccountController.cs",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Controllers\\NvtAccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvtAccountController.cs",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Controllers\\NvtAccountController.cs",
+              "RelativeToolTip": "Controllers\\NvtAccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:44:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NvtIndex.cshtml",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\NvtHome\\NvtIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvtHome\\NvtIndex.cshtml",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\NvtHome\\NvtIndex.cshtml",
+              "RelativeToolTip": "Views\\NvtHome\\NvtIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T01:09:55.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_NvtLayout.cshtml",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\Shared\\_NvtLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NvtLayout.cshtml",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\Shared\\_NvtLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NvtLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T01:09:50.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T01:24:36.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T01:16:35.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NvtHomeController.cs",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Controllers\\NvtHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvtHomeController.cs",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Controllers\\NvtHomeController.cs",
+              "RelativeToolTip": "Controllers\\NvtHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:09:38.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\2310900101_NguyenVanThinh\\NetCore\\Lab02MVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:09:06.089Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
