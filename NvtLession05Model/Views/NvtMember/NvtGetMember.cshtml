@@ -1,0 +1,38 @@
+﻿@model List<NvtLession05Model.Models.DataModels.NvtMember>
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<h2>Danh sách thành viên</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">➕ Thêm mới</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Member Id</th>
+            <th>User Name</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tv in Model)
+        {
+            <tr>
+                <td>@tv.NvtMemberId</td>
+                <td>@tv.NvtUserName</td>
+                <td>@tv.NvtFullName</td>
+                <td>@tv.NvtEmail</td>
+                <td>@tv.NvtPassword</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@tv.NvtMemberId" class="btn btn-primary btn-sm">✏️ Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@tv.NvtMemberId" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Bạn có chắc chắn muốn xoá?');">🗑️ Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

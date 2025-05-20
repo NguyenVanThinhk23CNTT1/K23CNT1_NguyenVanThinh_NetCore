@@ -1,0 +1,114 @@
+﻿/* Giao diện nền chủ đề vũ trụ */
+body {
+    background: linear-gradient(to bottom, #0b0c10, #1f2833);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/images/nen.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Header / Navbar */
+.navbar {
+    background: rgba(0, 0, 50, 0.8);
+    border-bottom: 1px solid #7FDBFF;
+    box-shadow: 0 0 15px rgba(127, 219, 255, 0.4);
+}
+
+.navbar-brand, .nav-link {
+    color: #7FDBFF !important;
+    font-weight: bold;
+    text-shadow: 0 0 6px #7FDBFF;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 50, 0.8);
+    color: #7FDBFF;
+    border-top: 1px solid #7FDBFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Bảng (đã có từ trước, giữ lại nếu cần) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(20, 30, 48, 0.6);
+    box-shadow: 0 0 20px rgba(127, 219, 255, 0.3);
+    border: 1px solid rgba(127, 219, 255, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+    table thead th {
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: #7FDBFF;
+        padding: 12px;
+        text-align: left;
+        text-shadow: 0 0 5px #7FDBFF;
+        border-bottom: 1px solid #7FDBFF;
+    }
+
+    table tbody td {
+        padding: 12px;
+        color: #ffffff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    table tbody tr:hover {
+        background: rgba(127, 219, 255, 0.15);
+        transform: scale(1.01);
+        box-shadow: 0 0 10px rgba(127, 219, 255, 0.5);
+    }
+
+    table td, table th {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+/* Nút theo chủ đề vũ trụ */
+.btn-space {
+    background: linear-gradient(to right, #283e51, #485563);
+    color: #7FDBFF;
+    border: 1px solid #7FDBFF;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+    .btn-space:hover {
+        background: #7FDBFF;
+        color: #0b0c10;
+        box-shadow: 0 0 10px #7FDBFF;
+    }
+
+/* Card, section, khối nội dung */
+.card, .content-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #7FDBFF;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(127, 219, 255, 0.3);
+}
+
+/* Tiêu đề */
+h1, h2, h3 {
+    color: #7FDBFF;
+    text-shadow: 0 0 10px #7FDBFF;
+}
+
+/* Link */
+a {
+    color: #7FDBFF;
+}
+
+    a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 5px #ffffff;
+    }

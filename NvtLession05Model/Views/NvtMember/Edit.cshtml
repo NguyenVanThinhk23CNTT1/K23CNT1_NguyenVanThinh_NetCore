@@ -1,0 +1,31 @@
+﻿@model NvtLession05Model.Models.DataModels.NvtMember
+@{
+    ViewData["Title"] = "Sửa thành viên";
+}
+
+<h2>Sửa thành viên</h2>
+
+<form asp-action="Edit" method="post">
+    <!-- ID ẩn nhưng vẫn truyền vào -->
+    <input type="hidden" asp-for="NvtMemberId" />
+
+    <div class="mb-3">
+        <label class="form-label">User Name</label>
+        <input asp-for="NvtUserName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input asp-for="NvtFullName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="NvtEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input asp-for="NvtPassword" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a asp-action="NvtGetMember" class="btn btn-secondary">Quay lại</a>
+</form>
