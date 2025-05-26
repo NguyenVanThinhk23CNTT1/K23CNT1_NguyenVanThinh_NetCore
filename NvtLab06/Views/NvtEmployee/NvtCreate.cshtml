@@ -1,0 +1,39 @@
+﻿@model NvtLab06.Models.NvtEmployee
+@{
+    ViewData["Title"] = "Thêm nhân viên mới";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="NvtCreateSubmit" method="post" class="w-50">
+    <div class="form-group">
+        <label>Mã NV</label>
+        <input asp-for="NvtId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Họ tên</label>
+        <input asp-for="NvtName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Ngày sinh</label>
+        <input asp-for="NvtBirthDay" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="NvtEmail" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>SĐT</label>
+        <input asp-for="NvtPhone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Lương</label>
+        <input asp-for="NvtSalary" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Trạng thái</label>
+        <input asp-for="NvtStatus" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Thêm</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>

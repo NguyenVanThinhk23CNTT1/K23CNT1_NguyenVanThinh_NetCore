@@ -1,0 +1,55 @@
+﻿@model List<NvtLab06.Models.NvtEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between mb-3">
+        <h2 class="text-primary">@ViewData["Title"]</h2>
+        <a asp-action="NvtCreate" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm nhân viên mới
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã NV</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Email</th>
+                <th>SĐT</th>
+                <th>Lương</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.NvtId</td>
+                    <td>@emp.NvtName</td>
+                    <td>@emp.NvtBirthDay</td>
+                    <td>@emp.NvtEmail</td>
+                    <td>@emp.NvtPhone</td>
+                    <td>@emp.NvtSalary</td>
+                    <td>
+                        <span class="badge
+                        @(emp.NvtStatus == "Đang làm việc" ? "bg-success" :
+                          emp.NvtStatus == "Đã nghỉ việc" ? "bg-danger" :
+                          "bg-warning text-dark")">
+                            @emp.NvtStatus
+                        </span>
+                    </td>
+                    <td>
+                        <a asp-action="NvtEdit" asp-route-id="@emp.NvtId" class="btn btn-sm btn-primary">Sửa</a>
+                        <a asp-action="NvtDelete" asp-route-id="@emp.NvtId" class="btn btn-sm btn-danger"
+                           onclick="return confirm('Bạn có chắc muốn xóa không?');">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

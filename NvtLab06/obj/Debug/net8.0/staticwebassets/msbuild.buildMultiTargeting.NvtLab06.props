@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NvtLab06.props" />
+</Project>
