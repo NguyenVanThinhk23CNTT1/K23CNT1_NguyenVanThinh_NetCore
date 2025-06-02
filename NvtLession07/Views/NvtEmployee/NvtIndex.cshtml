@@ -1,0 +1,60 @@
+﻿@model IEnumerable<NvtLession07.Models.NvtEmployee>
+
+@{
+    ViewData["Title"] = "NvtIndex";
+    Layout = "~/Views/Shared/_NvtLayout.cshtml";
+}
+
+<h1>NvtIndex</h1>
+
+<p>
+    <a asp-action="NvtCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvtId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvtName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvtBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvtPhone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvtId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvtName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvtBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvtPhone)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "NvtEdit", new { id = item.NvtId }) |
+                @Html.ActionLink("Details", "NvtDetails", new { id=item.NvtId }) |
+                @Html.ActionLink("Delete", "NvtDelete", new { id=item.NvtId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

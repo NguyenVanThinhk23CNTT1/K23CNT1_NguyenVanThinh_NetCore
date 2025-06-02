@@ -1,0 +1,52 @@
+﻿@model NvtLession07.Models.NvtEmployee
+
+@{
+    ViewData["Title"] = "NvtEdit";
+    Layout = "~/Views/Shared/_NvtLayout.cshtml";
+}
+
+<h1>NvtEdit</h1>
+
+<h4>NvtEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvtEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvtId" class="control-label"></label>
+                <input asp-for="NvtId" class="form-control" />
+                <span asp-validation-for="NvtId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvtName" class="control-label"></label>
+                <input asp-for="NvtName" class="form-control" />
+                <span asp-validation-for="NvtName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvtBirthDay" class="control-label"></label>
+                <input asp-for="NvtBirthDay" class="form-control" />
+                <span asp-validation-for="NvtBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvtPhone" class="control-label"></label>
+                <input asp-for="NvtPhone" class="form-control" />
+                <span asp-validation-for="NvtPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvtIndex">Back to List</a>
+</div>
+
+            
